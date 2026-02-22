@@ -1,0 +1,94 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "tabs": {
+    "file_icons": true,
+  },
+  "agent": {
+    "dock": "left",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "buffer_line_height": "comfortable",
+  "project_panel": {
+    "dock": "right",
+    "hide_root": true,
+    "indent_guides": {
+      "show": "always",
+    },
+    "sticky_scroll": true,
+    "indent_size": 14.0,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "entry_spacing": "comfortable",
+    "button": true,
+  },
+  "status_bar": {
+    "cursor_position_button": false,
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false,
+    "show": true,
+  },
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_sign_in": true,
+    "show_onboarding_banner": false,
+  },
+  "terminal": {
+    "button": true,
+  },
+  "toolbar": {
+    "agent_review": true,
+    "selections_menu": true,
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "inline_code_actions": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Cursor Dark",
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true,
+      },
+    },
+  },
+  "languages": {
+    "JavaScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+    "TypeScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+    "TSX": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+  },
+}
